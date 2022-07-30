@@ -1,0 +1,35 @@
+.nav {
+  width: 100%;
+  height: 100vh;
+  z-index: 5;
+  background-color: var(--bg-color);
+  position: fixed;
+  top: 8rem;
+  left: -100%;
+  transition: all 0.5s;
+}
+.nav-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+.nav-item {
+  font-size: 3rem;
+  padding: 1rem;
+}
+.nav-item:hover {
+  color: var(--primary-color);
+  cursor: pointer;
+}
+.nav-click {
+  width: 100%;
+  height: 100vh;
+  z-index: 5;
+  background-color: var(--bg-color);
+  position: fixed;
+  top: 8rem;
+  left: 0px;
+  transition: all 0.5s;
+}

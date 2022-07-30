@@ -1,0 +1,20 @@
+.image {
+  height: 100%;
+  width: 100%;
+  padding: 2px;
+}
+.image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+.image-gal {
+  columns: 10rem 2;
+  gap: 0.5rem;
+}
+
+@media (min-width: 850px) {
+  .image-gal {
+    columns: 3;
+  }
+}

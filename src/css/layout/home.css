@@ -1,0 +1,23 @@
+.main-home {
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+}
+.main-head {
+  padding: 4rem 2rem 2rem 2rem;
+}
+.head-first {
+  font-size: 4rem;
+  font-weight: 500;
+  color: var(--primary-color);
+}
+.head-second {
+  font-size: 7rem;
+  font-weight: 700;
+  opacity: 0.7;
+}
+
+.image-sec {
+  padding: 2.5rem 0;
+  width: 100%;
+}
